@@ -304,7 +304,7 @@ margin-left: -3px;
 
 
 <div class="topnav" id="myTopnav" style= "padding-left:50px">
-  <a href="#home" class="active">About US</a>
+  <a href="#home" class="active">About Us</a>
   <a href="/appeal">Lodge Appeal</a>
   <a href="#contact">Services</a>
   <a href="#financials">Financials</a>

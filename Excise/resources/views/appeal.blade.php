@@ -399,10 +399,10 @@ function myFunction() {
 <h2 align="center">Please Enter Your 16 Digit Propery Identification Number (PIN) To Continue</h2>
 
 <p></p>
-<form action="#" align="center">
-<input type="text"  id="numb" >
-
-<button type="button" class="button" onclick="myFunction()">Submit</button>
+<form action="/pinverify" align="center">
+  <input type="hidden" name="_token" value="{{ csrf_token() }}">
+  <input type="text"  id="numb" name="id" >
+  <button type="button" class="button" onclick="myFunction()">Submit</button>
 </form>
 <p id="demo"></p>
 
